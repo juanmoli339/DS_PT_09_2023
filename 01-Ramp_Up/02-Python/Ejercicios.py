@@ -23,3 +23,9 @@ print(type(variable_float))
 
 # EJERCICIO 3
 
+primera_preg = input ("Hola, bienvenida al Moli cuestionario, ¿Como te llamas?")
+segunda_preg = input (primera_preg + " Mmmm.... no me suena, querrás decir Morenaza Pivon. Digame su color favorito")
+tercera_preg = input ("El color" + segunda_preg + " es tan bonito como tú. Y ahora digame su ciudad favorita por favor")
+print (primera_preg+ " Le felicito! Le ha tocado un viaje en un avión "+ segunda_preg + " con direccion a"+ tercera_preg)
+print ( "Muchas gracias por participar " + primera_preg + " que diga Morenaza Pivon. Te quiero mucho")
+
